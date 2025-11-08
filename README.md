@@ -3,12 +3,28 @@ The starter tutorial explains how to use a Mifare DESFire NFC card on an ESP32 w
 
 This is the accompanying repository for my article "**How to work with a Mifare DESFire EVx NFC tag on an ESP32 with PN532 reader**" available here: 
 
+![Image 6](./images/esp32_s3_dev_pn532_desfire_01_500h.png)
+
 ## Important notes about the code
 Please note: The sketch is just the tutorial code and does not contain any code for displaying any data on a TFT display ! 
 
 The DESFire library contains just the code (commands) needed for the tutorial but not a full implementation of the DESFire EVx commands.
 
-![Image 1](./images/esp_prov_date_time_gps_03_500h.png)
+## Required Hardware (NFC Reader)
+
+I'm recommending two NFC readers, but please be aware that I read some negative comments on the "Red" PCB one - some seem to have design flaws.
+
+![Image 1](./images/pn532_blue_front_500w.png)
+![Image 2](./images/pn532_blue_back_500w.png)
+
+![Image 3](./images/pn532_red_front_500h.png)
+![Image 4](./images/pn532_red_back_500h.png)
+
+### SPI interface
+
+To use the **SPI mode** you have to bring the switch in the right position:
+
+![Image 5](./images/pn532_red_blue_switches_400h.png)
 
 ## Required Library
 ````plaintext
@@ -45,3 +61,9 @@ MIFARE DESFire EV3 feature and functionality comparison to other MIFARE DESFire 
 Arduino IDE Version 2.3.6 (Windows)
 arduino-esp32 boards Version 3.2.0 (https://github.com/espressif/arduino-esp32)
 ````
+
+## Implementations
+
+![Image 7](./images/esp32_1_9_display_pn532_desfire_01_500h.png)
+
+![Image 8](./images/esp32_s3_dev_pn532_desfire_02_500w.png)
