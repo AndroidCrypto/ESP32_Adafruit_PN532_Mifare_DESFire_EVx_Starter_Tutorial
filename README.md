@@ -3,7 +3,17 @@ The starter tutorial explains how to use a Mifare DESFire NFC card on an ESP32 w
 
 This is the accompanying repository for my article "**How to work with a Mifare DESFire EVx NFC tag on an ESP32 with PN532 reader**" available here: 
 
-![Image 5](./images/esp_prov_date_time_gps_03_500h.png)
+## Important notes about the code
+Please note: The sketch is just the tutorial code and does not contain any code for displaying any data on a TFT display ! 
+
+The DESFire library contains just the code (commands) needed for the tutorial but not a full implementation of the DESFire EVx commands.
+
+![Image 1](./images/esp_prov_date_time_gps_03_500h.png)
+
+## Required Library
+````plaintext
+Adafruit_PN532 by Adafruit version 1.3.4 (https://github.com/adafruit/Adafruit-PN532)
+````
 
 ## Documents
 
