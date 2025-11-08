@@ -26,6 +26,28 @@ To use the **SPI mode** you have to bring the switch in the right position:
 
 ![Image 5](./images/pn532_red_blue_switches_400h.png)
 
+````plaintext
+// settings for ESP32 ST7789 1.9-inches TFT display
+#define PN532_SCK (33)
+#define PN532_MOSI (32)
+#define PN532_SS (25)
+#define PN532_MISO (34)
+#define PN532_IRQ (-1)   // not connected
+#define PN532_RESET (-1) // not connected
+// The VCC pin of the reader is connected to the 3.3V pin of the ESP32
+````
+
+````plaintext
+// settings for ESP32-S3 Developmentboard with TFT Display
+#define PN532_SCK (42)
+#define PN532_MOSI (2)
+#define PN532_SS (40)
+#define PN532_MISO (41)
+#define PN532_IRQ (-1)   // not connected
+#define PN532_RESET (-1) // not connected
+// The VCC pin of the reader is connected to the 3.3V pin of the ESP32
+````
+
 ## Required Library
 ````plaintext
 Adafruit_PN532 by Adafruit version 1.3.4 (https://github.com/adafruit/Adafruit-PN532)
