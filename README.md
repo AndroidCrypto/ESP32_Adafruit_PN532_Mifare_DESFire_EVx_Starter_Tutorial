@@ -1,7 +1,7 @@
 # ESP32 Adafruit_PN532 Mifare DESFire EVx Starter Tutorial
 The starter tutorial explains how to use a Mifare DESFire NFC card on an ESP32 with a connected PN5232 reader.
 
-This is the accompanying repository for my article "**How to work with a Mifare DESFire EVx NFC tag on an ESP32 with PN532 reader**" available here: [tutorial part 1](https://medium.com/@androidcrypto/how-to-work-with-a-mifare-desfire-evx-nfc-tag-on-an-esp32-with-pn532-reader-starter-tutorial-part-c96c4d8fddb8) tutorial part 2
+This is the accompanying repository for my article "**How to work with a Mifare DESFire EVx NFC tag on an ESP32 with PN532 reader**" available here: [tutorial part 1](https://medium.com/@androidcrypto/how-to-work-with-a-mifare-desfire-evx-nfc-tag-on-an-esp32-with-pn532-reader-starter-tutorial-part-c96c4d8fddb8) and [tutorial part 2](https://medium.com/@androidcrypto/how-to-work-with-a-mifare-desfire-evx-nfc-tag-on-an-esp32-with-pn532-reader-starter-tutorial-part-7bcfbafd326f)
 
 ![Image 6](./images/esp32_s3_dev_pn532_desfire_01_500h.png)
 
